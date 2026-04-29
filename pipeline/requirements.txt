@@ -1,0 +1,25 @@
+# Calcutta Historical GIS Pipeline
+# Python Requirements
+
+# Image processing
+Pillow>=9.0.0
+opencv-python>=4.7.0
+scikit-image>=0.19.0
+
+# Geospatial
+rasterio>=1.3.0
+geopandas>=0.12.0
+shapely>=2.0.0
+pyproj>=3.4.0
+fiona>=1.9.0
+
+# Data handling
+numpy>=1.23.0
+pandas>=1.5.0
+tqdm>=4.64.0
+
+# Optional - OSM comparison
+osmnx>=1.3.0
+
+# Optional - GDAL (install separately via OSGeo4W on Windows)
+# gdal>=3.5.0
