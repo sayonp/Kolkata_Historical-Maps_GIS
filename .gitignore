@@ -1,3 +1,16 @@
+# Raw data — large files, backed up to UCL OneDrive
+cities/*/data/raw/maps/*.tif
+cities/*/data/raw/maps/*.tiff
+cities/*/data/raw/newspapers/*.pdf
+cities/*/data/processed/georeferenced/*.tif
+
+# OS
+.DS_Store
+
+# QGIS
+*.qgz.bak
+*.qgd
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

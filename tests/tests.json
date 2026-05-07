@@ -1,0 +1,10 @@
+{
+  "scripts": [
+    {"script": "scripts/01_map_ingestion.py",   "test_file": "tests/test_01.py", "status": "untested", "last_run": null, "coverage": [], "blocker": null},
+    {"script": "scripts/02_georeferencing.py",  "test_file": "tests/test_02.py", "status": "untested", "last_run": null, "coverage": [], "blocker": "MAP_GCPS dict is empty — no pixel coords entered yet"},
+    {"script": "scripts/03_nlp_extraction.py",  "test_file": "tests/test_03.py", "status": "untested", "last_run": null, "coverage": [], "blocker": "stub only"},
+    {"script": "scripts/04_route_mapping.py",   "test_file": "tests/test_04.py", "status": "untested", "last_run": null, "coverage": [], "blocker": "paths were Windows/UCL — needs macOS update"},
+    {"script": "scripts/05_syntax_analysis.py", "test_file": "tests/test_05.py", "status": "untested", "last_run": null, "coverage": [], "blocker": "stub only"},
+    {"script": "scripts/06_abm_simulation.py",  "test_file": "tests/test_06.py", "status": "untested", "last_run": null, "coverage": [], "blocker": "stub only"}
+  ]
+}
